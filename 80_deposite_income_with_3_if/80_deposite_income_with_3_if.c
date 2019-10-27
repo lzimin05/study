@@ -12,11 +12,14 @@ int main(int argc, char** argv) {
 	
 	float percent;
 	
-	if (sum <= 5000)
-		percent = 9;
-	if (sum <= 10000)
+	if (sum <= 5000) {
+		percent = 9; 
+	} 
+	if (sum <= 10000) {
 		percent = 11;
-	else percent = 13;
+	} else { 
+		percent = 13; 
+	}
 	
 	float r = percent / 12 * period;
 	float profit = sum * r /100;
