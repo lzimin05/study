@@ -2,7 +2,7 @@
 
 int main(int argc, char** argv) {
 	
-	printf("Enter day of the week (1 - monday ... 7 - sanday) -> ");
+	printf("Enter day of the week (1 - monday ... 7 - sunday) -> ");
 	int a;
 	scanf("%i", &a);
 	
