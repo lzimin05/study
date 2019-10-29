@@ -28,8 +28,9 @@ int main(int argc, char** argv) {
 			break;
 		default:
 			printf("ERROR");
-			break;
 			return 1;
+			break;
+			
 	}
 	float s = (a * h) / 10000;
 	float sum = s * cena;
