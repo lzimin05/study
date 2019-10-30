@@ -7,9 +7,8 @@ int main(int argc, char** argv) {
 	scanf("%i", &a);
 	
 	int summ = 0;
-	for (int i = 0; i <= a; i++) {
-	summ+= i;
-	
+	for (int i = 1; i <= a; i++) {
+		summ += i;
 	}
 	printf("\n---------------\n%i",summ);
 	return 0;
