@@ -3,7 +3,7 @@
 int main(int argc, char** argv) {
 	
 	printf("module:\n");
-	int a = 4;
+	
 	float x = -4;
 	for (int i = 1; i < 18; i++) {
 		if (x < 0) {
