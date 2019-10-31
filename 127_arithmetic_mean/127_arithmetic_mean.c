@@ -4,17 +4,21 @@ int main(int argc, char** argv) {
 
 	printf("Arithemetic mean:\n");
 	
-	float sum;
-	float ar;
-	for (int i = 1; i <= 5; i++) {
-		printf("Enter number -> ");
-		float a;
-		scanf("%f", &a);
-		
-		sum = sum + a;
-		ar = sum / i;
-		printf("number entered %.0i: %.2f arithmetic mean %.2f\n", i, a, ar);
+	printf("Step ->");
+	int a;
+	scanf("%i", &a);
 	
+	float sum;
+	
+	for (int i = 1; i <= a; i++) {
+		printf("Enter number -> ");
+		float b;
+		scanf("%f", &b);
+		sum = sum + b;
 	}
+	
+	float ce = sum / a;
+	printf("%f", ce);
+	
 	return 0;
 }
